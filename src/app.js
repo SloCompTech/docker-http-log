@@ -17,6 +17,7 @@ app.use('*', (req, res) => {
       baseUrl: req.baseUrl,
       body: req.body,
       cookieParser: req.cookies,
+      headers: req.headers,
       hostname: req.hostname,
       ip: req.ip,
       ips: req.ips,
