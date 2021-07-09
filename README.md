@@ -6,11 +6,11 @@
 
 ``` bash
 # Run container
-docker run --rm -it slocomptech/http-logger
+docker run --rm -it -p 3000:3000 slocomptech/http-logger
 ```
 
 ## Parameters
 
 |**Parameter**|**Function**|
 |:-----------:|:----------:|
-|`-e PORT=3000`|Server port|
+|`-e PORT=3000`|Server port (default: 3000)|
